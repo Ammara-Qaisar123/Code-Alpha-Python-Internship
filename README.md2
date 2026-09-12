@@ -1,0 +1,188 @@
+📈 CodeAlpha Stock Portfolio Tracker
+
+A simple Stock Portfolio Tracker developed using Python as part of the CodeAlpha Python Programming Internship.
+
+The program allows users to enter stock names and quantities, calculates the value of each investment using predefined stock prices, and displays the total portfolio investment value.
+
+📌 Project Overview
+
+The Stock Portfolio Tracker is a console-based Python application designed to demonstrate basic programming and file-handling concepts.
+
+The program uses a predefined dictionary containing stock symbols and their prices. Users can select stocks and enter the quantity they own. The program then calculates the total investment value.
+
+🎯 Objective
+
+The main objective of this project is to practice Python programming concepts by building a simple portfolio tracking application.
+
+The project allows the user to:
+
+Select stocks from a predefined list.
+Enter the quantity of stocks.
+Calculate individual investment values.
+Calculate the total portfolio value.
+Save the portfolio summary to a text file.
+✨ Features
+📊 Predefined stock price dictionary
+📈 Multiple stock selection
+🔢 Quantity-based investment calculation
+💰 Total investment calculation
+✅ Stock validation
+📄 Portfolio summary saved to .txt
+💻 Simple console-based interface
+
+🛠️ Technologies Used
+    Python 3.x
+    Google Colab
+    GitHub
+    Python Concepts
+    Dictionaries
+    Lists
+    Variables
+    Loops
+    Conditional statements
+    User input
+    Basic arithmetic
+    File handling
+
+📂 Project Structure
+CodeAlpha_Stock_Portfolio_Tracker/
+│
+├── CodeAlpha_Stock_Portfolio_Tracker.ipynb
+├── portfolio_summary.txt
+├── README.md
+
+⚙️ How It Works
+1. Stock Price Dictionary
+
+The program stores stock symbols and their prices in a Python dictionary.
+
+Example:
+
+stock_prices = {
+    "AAPL": 180,
+    "TSLA": 250,
+    "MSFT": 420,
+    "GOOGL": 170,
+    "AMZN": 190
+}
+
+2. User Input
+
+The user specifies how many different stocks they want to add and enters the stock symbol and quantity.
+
+3. Investment Calculation
+
+For each stock, the investment value is calculated using:
+
+Investment Value = Stock Price × Quantity
+
+4. Total Portfolio Value
+
+The values of all selected stocks are added together to calculate the total investment.
+
+5. Save Results
+
+The portfolio summary is saved in:
+
+portfolio_summary.txt
+
+▶️ Demo
+
+Example interaction:
+
+========================================
+       STOCK PORTFOLIO TRACKER
+========================================
+
+Available Stocks:
+AAPL: $180
+TSLA: $250
+MSFT: $420
+GOOGL: $170
+AMZN: $190
+
+How many different stocks do you want to add? 2
+
+Enter stock symbol: AAPL
+Enter quantity: 5
+
+Enter stock symbol: TSLA
+Enter quantity: 2
+
+========================================
+          PORTFOLIO SUMMARY
+========================================
+
+AAPL | Price: $180 | Quantity: 5 | Value: $900
+TSLA | Price: $250 | Quantity: 2 | Value: $500
+
+----------------------------------------
+Total Investment Value: $1400
+----------------------------------------
+
+Portfolio summary saved to portfolio_summary.txt
+
+🚀 How to Run
+Using Google Colab
+Open CodeAlpha_Stock_Portfolio_Tracker.ipynb.
+Open the notebook in Google Colab.
+Run the code cells.
+Enter the number of stocks.
+Enter each stock symbol.
+Enter the quantity.
+View the portfolio summary.
+Using Jupyter Notebook
+
+Clone the repository:
+
+git clone YOUR_GITHUB_REPOSITORY_URL
+
+Navigate to the project directory:
+
+cd CodeAlpha_Stock_Portfolio_Tracker
+
+Open the notebook using Jupyter Notebook or JupyterLab.
+
+📄 Output File
+
+The program generates:
+
+portfolio_summary.txt
+
+This file contains:
+
+Stock symbol
+Stock price
+Quantity
+Individual investment value
+Total investment value
+
+📚 Learning Outcomes
+
+Through this project, I learned how to:
+
+Create and use Python dictionaries.
+Accept and process user input.
+Use loops for repetitive tasks.
+Apply conditional statements.
+Perform arithmetic calculations.
+Calculate portfolio values.
+Work with basic file handling.
+Build a simple console-based Python application.
+🎯 CodeAlpha Internship
+
+Program: CodeAlpha Python Programming Internship
+
+Task: Task 2 — Stock Portfolio Tracker
+
+Project Type: Python Console Application
+
+👩‍💻 Author
+
+Ammara Qaisar (CA/DF1/273185)
+
+BS Artificial Intelligence Student
+
+⭐ Acknowledgment
+
+This project was developed as part of the CodeAlpha Python Programming Internship.
