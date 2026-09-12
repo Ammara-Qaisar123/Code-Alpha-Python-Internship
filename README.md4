@@ -1,0 +1,149 @@
+🤖 CodeAlpha Basic Chatbot
+
+A simple rule-based chatbot developed in Python as part of the CodeAlpha Python Programming Internship.
+
+The chatbot accepts user messages and provides predefined responses using Python functions and conditional statements.
+
+📌 Project Overview
+
+This project demonstrates how basic Python programming concepts can be used to create an interactive chatbot.
+
+The chatbot recognizes predefined messages such as:
+
+hello
+how are you
+bye
+
+For unknown messages, the chatbot provides a default response.
+
+✨ Features
+👋 Greeting response
+💬 Conversation interaction
+🤖 Rule-based responses
+❓ Handles unknown messages
+🔄 Continuous conversation
+🚪 bye command to exit
+🧩 Function-based design
+💻 Console interface
+🛠️ Technologies & Concepts
+
+🛠️ Technologies used
+    Python 3.x
+    Google Colab
+    GitHub
+    Python Concepts
+    Functions
+    Strings
+    if-elif-else
+    while loop
+    break
+    User input
+    Output statements
+
+📂 Project Structure
+CodeAlpha_Basic_Chatbot/
+│
+├── CodeAlpha_Basic_Chatbot.ipynb
+├── README.md
+
+🧠 How the Chatbot Works
+1. Receive User Input
+
+The chatbot asks the user to enter a message.
+
+You: hello
+2. Process the Input
+
+The input is converted to lowercase so that the chatbot can compare it with predefined messages.
+
+3. Select a Response
+
+The program uses if-elif-else statements to determine the appropriate response.
+
+4. Continue Conversation
+
+A while loop keeps the chatbot running.
+
+5. Exit
+
+When the user enters:
+
+bye
+
+the chatbot says goodbye and terminates.
+
+▶️ Demo
+Example Conversation
+================================
+        BASIC CHATBOT
+================================
+
+Type 'bye' to exit the chatbot.
+
+You: hello
+Bot: Hi!
+
+You: how are you
+Bot: I'm fine, thanks!
+
+You: what is your name
+Bot: Sorry, I don't understand.
+
+You: bye
+Bot: Goodbye!
+
+🚀 How to Run
+Option 1 — Google Colab
+Open the .ipynb notebook.
+Open it in Google Colab.
+Run the code.
+Enter a message when prompted.
+Type bye to end the conversation.
+Option 2 — Local Python
+
+Clone the repository:
+
+git clone YOUR_GITHUB_REPOSITORY_URL
+
+Navigate to the project:
+
+cd CodeAlpha_Basic_Chatbot
+
+Open the notebook using Jupyter Notebook or JupyterLab.
+
+📓 Project Notebook
+
+The complete implementation is available in:
+
+CodeAlpha_Basic_Chatbot.ipynb
+
+📚 Learning Outcomes
+
+This project helped me practice:
+
+Creating and using Python functions
+Working with strings
+Using conditional statements
+Creating loops
+Processing user input
+Designing simple rule-based logic
+Building an interactive console application
+🎯 Internship Task
+
+Program: CodeAlpha Python Programming Internship
+
+Task: Task 4 — Basic Chatbot
+
+Project Type: Console-based Python Application
+
+👩‍💻 Author
+
+Ammara Qaisar (CA/DF1/273185)
+
+BS Artificial Intelligence Student
+
+⭐ Acknowledgment
+
+This project was developed as part of the CodeAlpha Python Programming Internship.
+
+If you found this project useful, feel free to explore the repository.
